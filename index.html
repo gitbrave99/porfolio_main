@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Isaac Godínez-Services</title>
+    <title></title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
@@ -24,21 +24,21 @@
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">Inicio</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Servicios</a></li> -->
                     <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li> -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Categories
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="nav-link dropdown-toggle js-scroll-trigger" href="#services" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Servicios
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                           <a class="dropdown-item" href="cdesktop.html">Desktop</a>
                           <a class="dropdown-item" href="cweb.html">Web</a>
                           <a class="dropdown-item" href="cdatabases.html">Databases</a>
                       </div>
                   </li>
-                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Nosotros</a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contacto</a></li>
               </ul>
           </div>
       </div>
@@ -72,49 +72,44 @@
     </div>
 </section>
 
-<!-- Portfolio-->
 <div id="portfolio">
-    <!-- Services-->
-<section class="page-section" id="services">
-    <div class="container">
-        <h2 class="text-center mt-0">Services</h2>
-        <hr class="divider my-4" />
-        <div class="row">
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="mt-5">
-                    <!-- <i class="fas fa-4x fa-gem text-primary mb-4"></i> -->
-                    <!-- <i class="fas fa-database fa-4x text-primary mb-4"></i> -->
-                    <i class="fab fa-html5 fa-4x text-primary mb-4"></i>
-                    <h3 class="h4 mb-2">Web Design</h3>
-                    <p class="text-muted mb-0">Make your business grow</p>
+    <section class="page-section" id="services">
+        <div class="container">
+            <h2 class="text-center mt-0">Services</h2>
+            <hr class="divider my-4" />
+            <div class="row row-cols-1 row-cols-md-3" id="boxcolsservices">
+                <div class="col text-center">
+                    <div class="mt-5">
+                        <a href="cweb.html"><i class="fab fa-html5 fa-4x text-primary mb-4"></i></a>
+                        <h3 class="h4 mb-2"><a href="cweb.html" class="text-muted">Diseño Web</a></h3>
+                        <p class="text-muted mb-0">Make your business grow</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="mt-5">
-                    <i class="fas fa-database fa-4x text-primary mb-4"></i>
-                    <h3 class="h4 mb-2">Databases</h3>
-                    <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+                <div class="col text-center">
+                    <div class="mt-5">
+                        <i class="fas fa-database fa-4x text-primary mb-4"></i>
+                        <h3 class="h4 mb-2">Base de Datos</h3>
+                        <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="mt-5">
-                    
-                    <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-                    <h3 class="h4 mb-2">Desktop applications</h3>
-                    <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+                <div class="col text-center">
+                    <div class="mt-5">
+
+                        <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+                        <h3 class="h4 mb-2">Aplicaciones de Escritorio</h3>
+                        <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="mt-5">
-                    <!-- <i class="fas fa-4x fa-heart text-primary mb-4"></i> -->
-                    <i class="fas fa-4x fa-mobile-alt text-primary mb-4"></i>
-                    <h3 class="h4 mb-2">Soon mobile applications</h3>
-                    <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
-                </div>
+                <!-- <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <i class="fas fa-4x fa-mobile-alt text-primary mb-4"></i>
+                        <h3 class="h4 mb-2">Soon mobile applications</h3>
+                        <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                    </div>
+                </div> -->
             </div>
         </div>
-    </div>
-</section>
+    </section>
     <div class="container-fluid p-0">
         <div class="row no-gutters">
             <div class="col-lg-4 col-sm-6">
@@ -189,7 +184,7 @@
                 <h2 class="mt-0">Contact Us</h2>
                 <hr class="divider my-4" />
                 <p class="text-muted mb-5">Necesitas un sitio web, un portafolio digital, 
-                    una aplicación para administrar tu empresa... contáctanos y cotiza tu necesidad.
+                    una aplicación para administrar tu empresa... contáctanos
                 </p>
             </div>
         </div>
@@ -209,127 +204,81 @@
 </section>
 
 <!-- Footer -->
-  <footer class="page-footer font-small  pt-4 bg-dark">
+<footer class="page-footer font-small  pt-4 bg-dark">
     <div class="container text-center text-md-left">
-
-      <!-- Grid row -->
       <div class="row">
-
-        <!-- Grid column -->
         <div class="col-md-6 mt-md-0 mt-3">
-
-          <!-- Content -->
-          <h5 class="text-uppercase text-center text-light">Ubicación</h5>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1938.1637113611694!2d-89.2289306!3d13.6986087!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f63303f2266ced1%3A0x1305fab92194bef3!2sDistribuidora%20del%20Caribe!5e0!3m2!1ses-419!2ssv!4v1598929293075!5m2!1ses-419!2ssv"
-            width="100%" height="175px" frameborder="0" style="border-radius: 4px;" allowfullscreen="" aria-hidden="false" tabindex="0">
-
-          </iframe>
-
-        </div>
-        <!-- Grid column -->
-
-        <hr class="clearfix w-100 d-md-none pb-3">
-
-        <!-- Grid column -->
-        <div class="col-12 col-md-2 mb-md-0 mb-3">
-
-          <!-- Links -->
+          <h5 class="text-uppercase text-center text-light">Nosotros</h5>
+          <p class="text-muted">
+          	Como emprendedores nos dedicamos a ofrecer nuestros servicios 
+          </p>
+      </div>
+      <hr class="clearfix w-100 d-md-none pb-3">
+      <div class="col-12 col-md-3 mb-md-0 mb-3">
           <h5 class="text-uppercase text-light">Páginas</h5>
-
           <ul class="list-unstyled">
             <li>
-              <a href="#!" class="text-muted">About Us</a>
+                <a href="#services" class="text-muted">Servicios</a>
             </li>
+            <li><a href="cweb.html" class="text-muted">>Diseño web</a></li>
+            <li><a href="cdesktop.html" class="text-muted">>Escritorio</a></li>
+            <li><a href="cdatabases.html" class="text-muted">>Base de datos</a></li>
             <li>
-              <a href="#!" class="text-muted">Services</a>
-            </li>
-            <li>
-              <a href="#contact" class="text-muted">Contact</a>
-            </li>
-          </ul>
-
-        </div>  
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-12 col-md-4 mb-md-0 mb-3">
-
-          <!-- Links -->
-          <h5 class="text-uppercase text-light text-center">Horario</h5>
-
-          <table class="table bg-dark">
-            <tbody>
-              <tr>
-                <td>Lunes</td>
-                <td>Viernes</td>
-                <td>8:00 - 8:00</td>
-              </tr>
-              <tr>
-                <td>Sabado</td>
-                <td>Domingo</td>
-                <td>7:00 - 9:00</td>
-              </tr>
-            </tbody>
-          </table>
-
-        </div>
-        <!-- Grid column -->
-
-      </div>
-      <!-- Grid row -->
-
-    </div>
-
-
-    <!-- Footer Elements -->
-    <div class="container">
-
-      <!-- Social buttons -->
-      <ul class="list-unstyled list-inline text-center">
-        <li class="list-inline-item">
-          <a class="btn-floating btn-fb mx-1" href="#">
-            <i class="fab fa-facebook-f text-muted foot_icon"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-tw mx-1" href="#">
-            <i class="fab fa-twitter text-white foot_icon"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-tw mx-1" href="#">
-            <i class="fab fa-instagram text-white foot_icon"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-gplus mx-1" href="#">
-            <i class="fab fa-google-plus-g text-white foot_icon"> </i>
-          </a>
-        </li>
-
-        <li class="list-inline-item">
-          <a class="btn-floating btn-gplus mx-1" href="https://api.whatsapp.com/send?phone=50379115206&text=Bienvenido,%20como%20Estas?">
-            <i class="fab fa-whatsapp text-white foot_icon"></i>
-          </a>
-        </li>
+              <a href="#about" class="text-muted">Nosotros</a>
+          </li>
+          <li>
+              <a href="#contact" class="text-muted">Contacto</a>
+          </li>
       </ul>
-      <!-- Social buttons -->
-
+  </div>  
+  <hr class="clearfix w-100 d-md-none pb-3">
+  <div class="col-12 col-md-3 mb-md-0 mb-3">
+      <h5 class="text-uppercase text-light">Servicios</h5>
+      <ul class="list-unstyled">
+        <li>
+          <a href="#!" class="text-muted">Aplicaciones de Escritorio</a>
+      </li>
+      <li>
+          <a href="#!" class="text-muted">Diseño web</a>
+      </li>
+      <li>
+          <a href="#contact" class="text-muted">Base de datos</a>
+      </li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="container">
+    <hr>
+<section id="contenedor">
+    <div class="redes-sociales">
+        <div class="contenedor-icono">
+            <a href="http://www.twitter.com/falconmasters" target="_blank" class="twitter">
+                <i class="fab fa-google"></i>
+            </a>
+        </div>
+        <div class="contenedor-icono">
+            <a href="http://www.facebook.com/falconmasters" target="_blank" class="facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </div>
+        <div class="contenedor-icono">
+            <a href="http://www.instagram.com" target="_blank" class="instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
     </div>
-    <!-- Footer Elements -->
+</section>
+</div>
 
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3 text-muted">© 2020 Copyright:
-      <a href="https://mdbootstrap.com/" class="text-light">Isaac G</a>
-    </div>
-    <!-- Copyright -->
-
-  </footer>
-  
+<div class="footer-copyright text-center py-3 text-muted">© 2020 Copyright:
+  <a href="https://mdbootstrap.com/" class="text-light">Isaac G</a>
+</div>
+</footer>
 
 
-  
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
 <!-- Third party plugin JS-->
